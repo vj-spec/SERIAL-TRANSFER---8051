@@ -36,7 +36,7 @@ while(TI==0); TI=0;
 
 
 **(ii)	Serial port to Transfer a Message**
-
+```
 #include<reg51.h> void main(void)
 
 {
@@ -58,10 +58,10 @@ SBUF= msg[i]; while(TI==0); TI=0;
 while(1);
 
 }
-
+```
  
 **OUTPUT:**
-
+<img width="1919" height="1143" alt="Screenshot 2025-11-11 082953" src="https://github.com/user-attachments/assets/d4ddd80a-597b-4e23-a774-7be460475cfb" />
 
 **Result:**
 
